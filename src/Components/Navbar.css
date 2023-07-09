@@ -1,0 +1,28 @@
+.gotoTop {
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 4rem;
+    z-index: 2;
+    color: #24aeea;
+    border: 2px solid #24aeea;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition: all 0.5s;
+
+}
+
+.gotoTop:hover {
+    transform: translateY(-1rem);
+}
+.gotoTop a{
+    display: flex;
+}
+
+.active {
+    display: flex;
+}
